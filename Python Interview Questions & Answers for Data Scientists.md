@@ -105,6 +105,8 @@ A tuple is a collection of objects which ordered and immutable. Tuples are seque
 
 ### Q6: Compute the Euclidean Distance Between Two Series? ###
 ```
+import numpy as np
+np.sqrt(np.sum([(i-j)*(i-j) for i, j in zip(x, y)])) 
 ```
 
 ### Q7: Given an integer n and an integer K, output a list of all of the combination of k numbers chosen from 1 to n. For example, if n=3 and k=2, return [1,2],[1,3],[2,3] ### 
